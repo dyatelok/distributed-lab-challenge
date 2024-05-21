@@ -1,0 +1,7 @@
+Order(user_id: 1, amount: 10, price: 25, is_seller_side: true)
+Order(user_id: 5, amount: 10, price: 35, is_seller_side: true)
+Order(user_id: 2, amount: 50, price: 30, is_seller_side: false)
+Order(user_id: 3, amount: 10, price: 32, is_seller_side: false)
+Order(user_id: 7, amount: 10, price: 35, is_seller_side: false)
+Order(user_id: 4, amount: 5, price: 3, is_seller_side: false)
+Order(user_id: 6, amount: 100, price: 15, is_seller_side: true)

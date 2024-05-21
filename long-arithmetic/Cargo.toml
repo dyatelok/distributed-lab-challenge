@@ -1,0 +1,8 @@
+[package]
+name = "long-arithmetic"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+itertools = "0.12.1"
+replace_with = "0.1.7"

@@ -1,0 +1,9 @@
+[workspace]
+resolver = "2"
+
+members = [ "backpack", "hilter-crawler", "long-arithmetic", 
+  "maze"
+, "orderbook", "piniatas", "students-capital", "utxo-chain", "website-analytics"]
+
+[workspace.dependencies]
+itertools = "0.12.1"

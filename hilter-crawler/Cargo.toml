@@ -1,0 +1,18 @@
+[package]
+name = "hilter-crawler"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+atomic-counter = "1.0.1"
+clap = { version = "4.5.4", features = ["derive"] }
+const_format = "0.2.32"
+futures = "0.3.30"
+reqwest = { version = "0.12.2" , features = ["gzip", "brotli", "deflate", "blocking"] }
+select = "0.6.0"
+tokio = { version = "1.37.0", features = ["full"] }
+tower = { version = "0.4.13", features = ["limit", "buffer"] }
+itertools = { workspace = true }
+
+[profile.release]
+debug = true
